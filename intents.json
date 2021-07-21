@@ -1,0 +1,48 @@
+{
+    "intents":[
+        {"tag":"greetings",
+        "patterns":["hello","hi","how is it going?","Greetings","good day","hey","what's up?"],
+        "responses":["Hello!","Hey!","What can I do for you?"]
+        },
+
+        {"tag":"goodbye",
+            "patterns":["Bye", "See you later", "Goodbye","See ya!","Ciao"],
+            "responses":["See you later, thanks for visiting","Have a nice day","Bye! Come back again soon."]
+        },
+
+        {"tag":"thanks",
+            "patterns":["Thanks", "Thank you", "That's helpful"],
+            "responses":["Happy to help!", "Any time!", "My pleasure"]
+        },
+
+        {"tag":"hours",
+            "patterns":["What hours are you open?","What are your hours?","When are you guys open?"],
+            "responses":["24/7"]
+        },
+
+        {"tag":"payments",
+            "patterns":["Do you take credit cards?","Do you accept Mastercard?","Are you cash only?"],
+            "responses":["We accept VISA, Mastercard and AMEX","We accept most major credit cards"]
+        },
+
+        {"tag":"opentoday",
+            "patterns":["Are you open today?","When do you open today?","What are your hours today?"],
+            "responses":["24 hours"]
+        },
+
+        {"tag":"age",
+            "patterns":["how old?","age?","how old are you?","what is your age?"],
+            "responses":["My owner is 21 years old!","21 years!"]
+        },
+
+        {"tag":"name",
+            "patterns":["What is your name?","What should I call you?","Who are you?","What's your name?","Can you tell me your name?"],
+            "responses":["You can call me Newton!","Newton it is!","I'm Newton!","I'm Newton assistant of Ankit!"]
+        },
+
+        {"tag":"shop",
+            "patterns":["I would like to buy something!","What are your Products?","What do you recommend?"],
+            "responses":["We have a variety of products to choose from!","Variety of products with special discounts!"]
+        }
+    ]
+}
